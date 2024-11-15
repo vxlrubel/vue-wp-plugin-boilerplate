@@ -1,0 +1,47 @@
+# Node modules and dependencies
+src/node_modules/
+
+# Build artifacts
+src/dist/
+src/.vscode/
+*.log
+*.cache
+*.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer dependencies
+vendor/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+*.swp
+*.lock
+*.tmp
+*.bak
+*.orig
+
+# Cache and temp files
+*.tmp
+*.temp
+*.bak
+
+# Ignore specific development files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore build output (specific to Vite, if used)
+public/
+out/
